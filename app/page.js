@@ -242,7 +242,7 @@ export default async function Home() {
   </div>
 
   <div>
-    <h2>Selected projects and experiments.</h2>
+    <h2>Projects and Experiments.</h2>
 
     <GitHubProjectPreview />
     <ProjectDocumentViewer documents={projectDocuments} />

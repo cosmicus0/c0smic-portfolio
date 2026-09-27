@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+
+# Next.js
+/.next
+/out
+
+# local environment files
+.env*.local
+
+# deployment
+.vercel
+
+.pnpm-store/
+outputs/
+work/
+.pnpm-store/

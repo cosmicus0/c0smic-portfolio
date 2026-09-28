@@ -68,13 +68,13 @@ const skills = [
 
 const experiences = [
   {
-    period: "2026 - sekarang",
+    period: "2026 - Present",
     role: "Apprentice",
     organization: "PETIR BINUS",
     logo: "/logos/petir-binus.jpg",
     points: [
-      "Merancang dan mengembangkan challenge Capture the Flag (CTF) BeeCTF untuk kategori reverse engineering tingkat menengah.",
-      "Mengikuti kompetisi CTF nasional, termasuk COMPFEST (UI), IT Fest (IPB), Hology (UB), dan kompetisi lainnya.",
+      "Designed and Developed Technical Challenges: Authored and configured medium-difficulty Reverse Engineering challenges for the BeeCTF competition, ensuring robust vulnerability design, accurate flag implementation, and clear problem specifications.",
+      "CTF Competition Participant: Actively represented the team in prestigious national Capture the Flag (CTF) competitions including COMPFEST (Universitas Indonesia), IT Fest (IPB University), Hology (Universitas Brawijaya), and many more, focusing on binary analysis, and reverse engineering.",
     ],
   },
   {
@@ -83,9 +83,10 @@ const experiences = [
     organization: "Cyber Security Community",
     logo: "/logos/cyber_security_community_logo.jpg",
     points: [
-      "Mendukung komunikasi internal, keterlibatan anggota, dan alur kerja divisi Human Capital.",
-      "Menjadi Quality Control Event pada Welcoming Party dan mengoordinasikan kebutuhan perlengkapan Cyber Awareness Day.",
-      "Berkontribusi dalam National Cyber Week, Expo Organisasi, serta berbagai kegiatan internal komunitas.",
+      "Human Resources & Operational Support: Facilitated daily Human Capital operations by managing internal communication channels, fostering member engagement strategies, and streamlining cross-divisional workflows.",
+      "Quality Control & Event Execution (Welcoming Party): Served as Quality Control (QC) Lead for the organization's Welcoming Party, monitoring event rundown schedules, evaluating technical readiness, and ensuring seamless execution according to operational standards.",
+      "Logistics & Equipment Coordination (Cyber Awareness Day): Managed end-to-end logistics and equipment deployment for Cyber Awareness Day, liaising with internal and external vendors to secure all essential resources.",
+      "Cross-Functional Event Management: Contributed actively as a committee member for major community-wide initiatives, including National Cyber Week (NCW), the Student Organization Expo, and internal Human Capital team-building programs."
     ],
   },
 ];
@@ -136,7 +137,7 @@ export default async function Home() {
           </nav>
 
           <a className="nav-contact" href="#contact">
-            Hubungi saya
+            Contact Me Directly
           </a>
         </header>
 
@@ -157,8 +158,8 @@ export default async function Home() {
         </div>
         <p className="hero-copy">Cyber Security student specializing in <strong>reverse engineering, threat analysis</strong>, and building proactive detection workflows for modern <strong>SOC</strong> environments.</p>
         <div className="hero-actions">
-          <a className="button primary" href="#writeups">Lihat write-ups <span>↗</span></a>
-          <a className="button secondary" href="https://github.com/cosmicus0" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          <a className="button primary" href="#writeups">View Writeups</a>
+          <a className="button secondary" href="https://github.com/cosmicus0" target="_blank" rel="noreferrer">GitHub</a>
         </div>
         <div className="nameplate">
           <span className="nameplate-label">IDENTITY</span>

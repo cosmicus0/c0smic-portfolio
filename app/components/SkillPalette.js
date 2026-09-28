@@ -19,7 +19,6 @@ const skills = [
       "Breaking down binaries to understand software behaviour and hidden logic.",
     // TODO: sesuaikan dengan tools yang benar-benar kamu pakai
     tools: ["Ghidra", "IDA Free", "GDB", "pwndbg"],
-    evidence: "Binary analysis di CTF COMPFEST, IT Fest, dan Hology.",
   },
   {
     name: "Assembly Analysis",
